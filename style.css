@@ -66,7 +66,6 @@ body {
     background-image: 
         radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
         radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.02) 0%, transparent 50%);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0.75rem 0;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -278,7 +277,7 @@ body {
 
 /* Path Section */
 .path-section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-xl) 0;
     background: var(--bg-secondary);
 }
 
@@ -414,7 +413,7 @@ body {
 
 /* Why Section */
 .why-section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-xl) 0;
 }
 
 .why-grid {
@@ -457,7 +456,7 @@ body {
 
 /* How Section */
 .how-section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-xl) 0 var(--space-lg);
     background: var(--bg-secondary);
 }
 
@@ -506,7 +505,8 @@ body {
 
 .how-note {
     text-align: center;
-    margin-top: var(--space-xl);
+    margin-top: var(--space-lg);
+    margin-bottom: 0;
 }
 
 .how-note p {
@@ -516,7 +516,7 @@ body {
 
 /* CTA Section */
 .cta-section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-xl) 0;
     background: var(--primary-color);
     color: white;
     text-align: center;
@@ -571,7 +571,7 @@ body {
 .footer {
     background: var(--bg-primary);
     border-top: 1px solid var(--border-color);
-    padding: var(--space-3xl) 0 var(--space-xl);
+    padding: var(--space-xl) 0 var(--space-lg);
 }
 
 .footer-content {
